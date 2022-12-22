@@ -1,0 +1,204 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+/*================================body section==================================*/
+body {
+    display: flex;
+    height: 100%;
+    justify-content: center;
+    align-items: center;
+    padding: 10px;
+    background: whitesmoke;
+}
+
+.container {
+    /*max-width:700px;*/
+    width: 60%;
+    height: 100%;
+    padding: 25px;
+    background: white;
+    margin: 10px;
+}
+
+.container .title {
+    font-size: 31px;
+    font-weight: 500;
+    position: relative;
+    text-align: center;
+    color: red;
+}
+
+.container form .user_details {
+    display: flex;
+    flex-wrap: wrap;
+    padding: 30px;
+    justify-content: space-between;
+
+}
+/*================================form section==================================*/
+form .user_details .input_box {
+    width: calc(100%/2 - 20px);
+    margin: -3px 0px 7px 0px;
+
+
+}
+
+form .user_details .input_box details {
+    font-weight: 500;
+    margin-bottom: 5px;
+    display: block;
+    padding: 10px;
+
+}
+
+.user_details .input_box input {
+    height: 40px;
+    width: 100%;
+    padding: 5px 15px;
+    outline: none;
+    border: 1px solid aqua;
+    border-radius: 5px;
+    font-size: 16px;
+
+
+}
+/*================================paragraph section==================================*/
+.paraghaph {
+    background-color: rgb(62, 206, 206);
+    padding: 10px 20px;
+
+    border-radius: 6px;
+    color: white;
+    font-style: bold;
+
+    font-size: 18px;
+}
+
+.btn {
+
+    margin: 0px 10px;
+    background-color: red;
+    color: white;
+    padding: 4px 14px;
+    border: 2px solid rgb(62, 206, 206);
+    border-radius: 7px;
+    font-size: 20px;
+    cursor: pointer;
+}
+
+.btn:hover {
+    background-color: rgb(62, 206, 206);
+
+}
+
+.but {
+    text-align: center;
+}
+
+span {
+    color: red;
+}
+
+select {
+    height: 40px;
+    width: 100%;
+    padding: 5px 15px;
+    outline: 0;
+    border: 1px solid aqua;
+    border-radius: 5px;
+}
+/*================================captcha  section==================================*/
+#txtCaptcha {
+
+    border: none;
+    font-weight: bold;
+    font-size: 20px;
+    font-family: monospace;
+    color: red;
+    margin: 15px 0px;
+    width: 100px;
+    background-color: whitesmoke;
+}
+
+#txtCompare {
+
+    padding: 5px 15px;
+    outline: 0;
+    border: 1px solid aqua;
+    border-radius: 5px;
+}
+
+#btn {
+    margin: 5px 27px;
+    padding: 37px 12px;
+    color: red;
+    font-weight: bold;
+    font-size: 25px;
+}
+
+.captc {
+    margin-top: 100px;
+    padding-right: 140px;
+}
+/*================================question mark section==================================*/
+                    .ques1  {
+                        font-size: 20px;
+                        padding-left:127px;
+                        font-weight: bold;
+                    }
+                            .ques2{
+                                font-size: 20px;
+                                padding-left:128px; 
+                                font-weight: bold;
+                            }
+                                    .ques3{
+                                        font-size: 20px;
+                                        padding-left:141px; 
+                                        font-weight: bold;
+                                    }
+.ques4{
+    font-size: 20px;
+    padding-left:160px; 
+    font-weight: bold;
+}
+.ques5{
+    font-size: 20px;
+    padding-left:78px; 
+    font-weight: bold;
+}
+.ques6{
+   
+    font-size: 20px;
+    padding-left:125px; 
+    font-weight: bold;
+}
+
+
+/*==============================Responsive===================*/
+
+@media (max-width:941px){
+    .container{
+        max-width:100%;
+    }
+    form .user_details .input_box {
+       
+        margin-bottom: 15px;
+        width:100%;
+    }  
+    .container form .user_details {
+        max-width:  500px;
+
+    }
+    .user_details .input_box input {
+        height: 40px;
+        width: 100%;
+        padding: 5px 15px;
+       
+    
+    }
+   
+        
+    
+}
